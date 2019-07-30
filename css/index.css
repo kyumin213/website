@@ -1,0 +1,164 @@
+/*banner*/
+section{
+	margin-top: 100px;
+}
+.productBox {
+	width: 70%;
+	margin: 84px auto 0 auto;
+	height: 690px;
+	overflow: hidden;
+}
+.listItem{
+	position: relative;
+}
+.proListBox{
+	position: absolute;
+}
+.proListBox li{
+	display: inline-block;
+}
+.proListBox .items{
+	width: 440px;
+	height: 630px;
+	text-align: center;
+	cursor: pointer;
+}
+.bannerImg{
+	width: 100%;
+	background-size: cover;
+}
+
+.productBox .titleTxt{
+	font-size: 20px;
+	color: #666666;
+}
+.slider-page{
+	position: absolute;
+	top: -60px;
+	right: 0;
+}
+.slider-page .slider-pre,.slider-page .slider-next{
+	display: inline-block;
+	width: 24px;
+	height: 28px;
+	background: #666666;
+	position: relative;
+	cursor: pointer;
+}
+
+.slider-page .slider-pre:after,.slider-page .slider-next:after{
+	content: '';
+	position: absolute;
+	top: 7px;
+	left: 8px;
+	width: 14px;
+	height: 14px;
+	border-top: #fff solid 2px;
+	border-left: #fff solid 2px;
+	transform: rotate(-45deg);
+}
+.slider-page .slider-next:after{
+	transform: rotate(135deg);
+	left: 2px;
+}
+.proImg{
+	height: 572px;
+	border: #EEEEEE solid 1px;
+}
+
+.productBox .productName{
+	font-size: 20px;
+	color: #666666;
+}
+.videoBox{
+	width: 100%;
+	height: 600px;
+	background: #f6f6f6;
+	margin-top: 75px;
+	box-sizing: border-box;
+}
+.videoBox .videoCon{
+	width: 70%;
+	margin: 0 auto;
+}
+.videoBox .videoItem{
+	width: 49.5%;
+	text-align: center;
+}
+.videoBox .video{
+	width: 100%;
+}
+.videoItem .names{
+	background: #02e0b0;
+	color: #fff;
+	font-size: 20px;
+	padding: 2px 5px;
+}
+.viewBox{
+	width: 80%;	
+	margin: 110px auto 0 auto;
+	overflow: hidden;
+}
+.viewBox .viewItem{
+	width: 32%;
+	position: relative;
+	overflow: hidden;
+	z-index: 9;
+}
+.viewBox .viewImg{
+	width: 100%;
+	height: 480px;
+	cursor: pointer;
+}
+.viewBox .viewItem .p2{
+	font-size: 14px;
+}
+.viewBox .viewItem p{
+	text-indent:1.5em;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.imgBox{
+	width: 100%;
+	height: 480px;
+	position: relative;
+	z-index: 8;
+}
+.viewItem .icon{
+	width: 90px;
+	height: 90px;
+	border-radius: 50%;
+	background: #02E0B0;
+	color: #fff;
+	font-size: 26px;
+	text-align: center;
+	line-height: 90px;
+	position: absolute;
+	top: 200px;
+	left: 50%;
+	z-index: 6;
+	transform: translate(-50%,-50%);
+	cursor: pointer;
+}
+.viewItem .showIcon{
+	top:200px;
+	z-index: 999;
+	animation: show .5s linear;
+}
+.lookmore{
+	text-align: center;
+	margin-top: 80px;
+}
+.lookmore a{
+	color: #00d2d2;
+	font-size: 28px;
+}
+@keyframes show{
+	from{
+		top: -90px;
+	}
+	to{
+		top: 200px;
+	}
+}

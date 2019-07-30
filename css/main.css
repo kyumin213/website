@@ -1,0 +1,183 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.428571429;
+  color: #333333;
+  background-color: #ffffff;
+}
+ul li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: #666;
+}
+a:hover{
+	text-decoration: none;
+}
+.col9{
+	color: #999;
+}
+.disFlex{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.fw{
+	font-weight: 600;
+}
+.fz16{
+	font-size: 16px;
+}
+.fz14{
+	font-size: 14px;
+}
+.mt50{
+	margin-top: 50px;
+}
+.mt65{
+	margin-top: 65px;
+}
+.mt25{
+	margin-top: 25px;
+}
+.mt30{
+	margin-top: 30px;
+}
+.mt35{
+	margin-top: 35px;
+}
+.mt20{
+	margin-top: 20px;
+}
+.mt15{
+	margin-top: 15px;
+}
+.mt10{
+	margin-top: 10px;
+}
+.mt5{
+	margin-top: 5px;
+}
+.ml30{
+	margin-left: 30px;
+}
+.mb20{
+	margin-bottom: 20px;
+}
+.mb60{
+	margin-bottom: 60px;
+}
+.mr100{
+	margin-right: 100px;
+}
+.pt40{
+	padding-top: 40px;
+}
+.pb40{
+	padding-bottom: 40px;
+}
+.pl30{
+	padding-left: 30px;
+}
+.fleft{
+	float: left;
+}
+.fright{
+	float: right;
+}
+.active-this{
+	color: #00d2d2;
+}
+.textCenter{
+	text-align: center;
+	font-size: 24px;
+	margin-top: 50px;
+}
+.wid80{
+	width: 80%;
+	margin: 0 auto;
+}
+.wid70{
+	width: 70%;
+	margin: 0 auto;
+}
+.disFlex img{
+	vertical-align: middle;
+}
+.colf{
+	color: #fff;
+}
+.col67{
+	color: #676767;
+}
+.wid{
+	width: 80%;
+	margin: 0 auto;
+	align-items: flex-start;
+}
+/*头部*/
+header{
+	width: 100%;
+	height: 100px;
+	line-height: 100px;
+	background-color: #fff;
+	box-shadow: 0 0 5px RGBA(150,150,150,.3);
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+}
+nav{
+	width: 75%;
+	margin: 0 auto;
+	height: 100%;
+}
+.logo{
+	height: 50px;
+	background-size: cover;
+}
+.navRight ul li{
+	display: inline-block;
+	width: 150px;
+}
+.navRight ul a:hover{
+	color: #00d2d2;
+}
+/*底部*/
+footer{
+	width: 100%;
+	height: 280px;
+	background: #2e2e2e;
+	margin-top: 100px;
+	box-sizing: border-box;
+}
+footer a:hover{
+	color: #00d2d2;
+}
+.footerTxt{
+	width: 450px;
+}
+.icon{
+	width: 32px;
+	height: 32px;
+	margin-right: 10px;
+}
+.shareItem{
+display: flex;
+align-items: center;
+justify-content: flex-start;
+margin-bottom: 10px;
+}
+.footerRight{
+	display: flex;
+	justify-content: space-between;
+	width: 90%;
+	border-bottom: #999 solid 1px;
+	padding-bottom: 20px;
+}
